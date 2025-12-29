@@ -1,14 +1,26 @@
 {
   "name": "vnatural-website",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "VNatural - Next-generation wellness ecosystem with natural products, MedTel, AI Doctor, and personalized nutrition",
+  "author": "VNatural",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "analyze": "ANALYZE=true next build"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   },
   "dependencies": {
+    "framer-motion": "^12.23.26",
+    "gsap": "^3.14.2",
+    "lucide-react": "^0.562.0",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"

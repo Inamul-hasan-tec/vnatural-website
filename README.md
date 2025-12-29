@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 VNatural - Natural & Organic Products Website
 
-## Getting Started
+A modern, interactive Next.js website for VNatural, featuring stunning animations and creative design to showcase natural and organic products.
 
-First, run the development server:
+## ✨ Features
 
+- **3 Pages**: Home, About Us, and Contact
+- **Modern Animations**: Framer Motion for smooth, engaging interactions
+- **Interactive Elements**: Hover effects, scroll-triggered animations, and micro-interactions
+- **Responsive Design**: Fully responsive across all devices
+- **Creative UI**: Gradient backgrounds, glassmorphism effects, and dynamic layouts
+- **Performance Optimized**: Built with Next.js 14 and React best practices
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: TailwindCSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Fonts**: Geist Sans & Geist Mono
+
+## 🚀 Getting Started
+
+1. **Install dependencies**:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Run the development server**:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Open your browser**:
+Navigate to [http://localhost:3000](http://localhost:3000)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+```
+vnatural-website/
+├── app/
+│   ├── about/          # About Us page
+│   ├── contact/        # Contact page
+│   ├── globals.css     # Global styles and animations
+│   ├── layout.tsx      # Root layout
+│   └── page.tsx        # Home page
+├── components/
+│   ├── Navigation.tsx  # Header navigation
+│   └── Footer.tsx      # Footer component
+└── public/             # Static assets
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Design Highlights
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Animated Hero Section**: Eye-catching hero with gradient backgrounds and floating animations
+- **Feature Cards**: Interactive cards with hover effects and icon animations
+- **Timeline**: Visual journey timeline on About page
+- **Contact Form**: Fully functional form with success animations
+- **Smooth Transitions**: Page and component-level animations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Build for Production
 
-## Deploy on Vercel
+```bash
+npm run build
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌐 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploy easily on Vercel, Netlify, or any platform supporting Next.js:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+## 📄 License
+
+© 2024 VNatural. All rights reserved.
