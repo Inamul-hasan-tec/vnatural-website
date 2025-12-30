@@ -90,15 +90,15 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-gray-400" />
-                <span>info@vnatural.com</span>
+                <span>info@vnatural.in</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-gray-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 9966624443</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-gray-400" />
-                <span>123 Nature St, Green City</span>
+                <span>SBR Gateway, 4th Floor, HITEC City, Hyderabad</span>
               </li>
             </ul>
           </motion.div>

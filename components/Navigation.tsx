@@ -28,7 +28,7 @@ export default function Navigation() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/90 backdrop-blur-md shadow-lg" : "bg-transparent"
+        isScrolled ? "bg-white/95 backdrop-blur-md shadow-lg" : "bg-white/80 backdrop-blur-sm shadow-md"
       }`}
       suppressHydrationWarning
     >
@@ -52,20 +52,12 @@ export default function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`relative transition-colors duration-300 font-medium group ${
-                  isScrolled
-                    ? "text-gray-800 hover:text-emerald-700"
-                    : "text-white hover:text-emerald-200"
-                }`}
+                className="relative transition-colors duration-300 font-medium group text-gray-800 hover:text-emerald-700"
                 suppressHydrationWarning
               >
                 {link.label}
                 <span
-                  className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r ${
-                    isScrolled
-                      ? "from-green-600 to-emerald-600"
-                      : "from-white to-emerald-200"
-                  } group-hover:w-full transition-all duration-300`}
+                  className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-green-600 to-emerald-600 group-hover:w-full transition-all duration-300"
                   suppressHydrationWarning
                 ></span>
               </Link>
@@ -77,11 +69,7 @@ export default function Navigation() {
 
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className={`md:hidden transition-colors ${
-              isScrolled
-                ? "text-gray-900 hover:text-emerald-600"
-                : "text-white hover:text-emerald-200"
-            }`}
+            className="md:hidden transition-colors text-gray-900 hover:text-emerald-600"
             suppressHydrationWarning
           >
             {isMobileMenuOpen ? (

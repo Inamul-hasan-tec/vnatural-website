@@ -35,22 +35,22 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'info@vnatural.com',
+      content: 'info@vnatural.in',
       description: 'Send us an email anytime',
       color: 'from-blue-500 to-cyan-500',
     },
     {
       icon: Phone,
       title: 'Call Us',
-      content: '+1 (555) 123-4567',
+      content: '+91 9966624443',
       description: 'Mon-Fri from 8am to 6pm',
       color: 'from-green-500 to-emerald-500',
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      content: '123 Nature Street',
-      description: 'Green City, GC 12345',
+      content: 'SBR Gateway, 4th Floor, Opposite ibis hotel',
+      description: 'Huda techno Enclave, HITEC City, Hyderabad, Telangana 500081',
       color: 'from-purple-500 to-pink-500',
     },
   ];
