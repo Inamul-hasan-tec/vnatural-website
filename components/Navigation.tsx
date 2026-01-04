@@ -22,6 +22,9 @@ export default function Navigation() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
+    { href: "/gallery", label: "Gallery" },
+    { href: "/sourcing-process", label: "Sourcing Process" },
+    { href: "/supply-partners", label: "Supply Partners" },
     { href: "/contact", label: "Contact" },
   ];
 
